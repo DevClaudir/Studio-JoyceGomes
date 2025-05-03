@@ -1,0 +1,215 @@
+@media (max-width: 768px) {
+    header {
+        padding: 16px 0 16px 0;
+    }
+    header h1{
+        display: none;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    .container-homepage {
+        min-height: 90dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-homepage img {
+        height: 320px;
+        width: 320px;
+    }
+    .texto {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        gap: 16px;
+        padding: 0 15px 0 15px;
+    }
+    .texto h2, .texto span {
+        text-align: center;
+    }
+    .texto p {
+        text-align: justify;
+    }
+    .texto span {
+        font-size: 18px;
+        font-style: italic;
+    }
+    #galeria, #espaco, #contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin-top: 80px;
+        gap: 16px;
+    }
+    .container-gallery {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    #galeria img {
+        height: 400px;
+        width: 260px;
+        border-radius: 16px;
+    }
+
+    #galeria .nails-hidden {
+        display: none;
+    }
+
+    #galeria button {
+        color: #FFF;
+        margin-top: 40px;
+        background-color: #c36e83;
+        padding: 16px;
+        border-radius: 10px;
+    }
+    iframe {
+        margin-top: 16px;
+    }
+    .logo-nosso-espaco img {
+        margin-top: 16px;
+        height: 80px;
+        width: 80px;
+        animation: logo 2.5s infinite;
+    }
+    #espaco p {
+        margin-top: 16px;
+        text-align: justify;
+        width: 80%;
+        padding: 0px 15px 0 15px;
+    }
+    .container-fotos-estudio {
+        min-height: 100vh;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+    }
+    .container-fotos-estudio img {
+        height: 400px;
+        width: 260px;
+        border-radius: 12px;
+    }
+    #avaliacoes {
+        margin-top: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .container-avaliacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80dvh;
+        background-color: #c36e83;
+        border-radius: 16px;
+        box-shadow: #f8b7c3 6px 6px 3px;
+        padding: 32px;
+    }
+    .container-contatos {
+        gap: 32px;
+    }
+
+    .avaliacao {
+        background-color: #fff3f5;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 16px 0 16px 0;
+    }
+
+    .usuario-avaliacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .estrelas {
+        text-align: center;
+        color: #a75a6e;
+        font-size: 18px;
+    }
+
+    .avaliacao p {
+        text-align: center;
+    }
+    a .minicard {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #c36e83;
+        color: #FFF;
+        width: 100%;
+        padding: 16px 32px;
+        border-radius: 12px;
+        gap: 46px;
+        font-size: 18px;
+    }
+    a .tiktok p{
+        padding: 0 20px 0 20px;
+    }
+    a .minicard .whatsapp p{
+        padding: -100px;
+    }
+    #contato h3 {
+        margin-top: 80px;
+    }
+    .agendamento {
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        padding: 25px 65px 25px 65px;
+        gap: 32px;
+        background-color: #c36e83;
+        border-radius: 10px;
+        font-size: 18px;
+        width: 100%;
+        animation: pulse 1s infinite;
+        box-shadow: #f8b7c3 6px 6px 3px;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 16px;
+    }
+    footer button {
+        padding: 12px;
+        border-radius: 8px;
+        background-color:#c36e83;
+        color: #FFF;
+    }
+    .botao-localizacao {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #c36e83;
+        color: #FFF;
+        padding: 12px 24px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    .botao-localizacao:hover {
+        background-color: #a75a6e;
+    }
+    .botao-localizacao i {
+        font-size: 1.2em;
+    }
+}
